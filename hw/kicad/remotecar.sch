@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 1/10/2013 3:44:07 PM
+EESchema Schematic File Version 2  date 1/11/2013 12:47:21 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,14 +29,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:remotecar-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "10 jan 2013"
+Date "11 jan 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -44,6 +43,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 5050 3450
+Wire Wire Line
+	4700 4250 5050 4250
+Wire Wire Line
+	5050 4250 5050 3450
+Wire Wire Line
+	3900 3550 4000 3550
+Wire Wire Line
+	4000 3350 3300 3350
 Wire Wire Line
 	6000 3250 6350 3250
 Wire Wire Line
@@ -58,50 +66,53 @@ Wire Wire Line
 	5800 2750 5800 2650
 Wire Wire Line
 	4400 3850 4400 4000
-Connection ~ 3900 3550
-Wire Wire Line
-	4200 4250 3900 4250
-Wire Wire Line
-	3900 4250 3900 3550
 Wire Wire Line
 	4400 3050 4400 2900
-Connection ~ 3150 3550
-Wire Wire Line
-	3150 4000 3150 3350
-Wire Wire Line
-	3150 3350 4000 3350
-Wire Wire Line
-	3150 3550 3250 3550
-Wire Wire Line
-	3650 3550 4000 3550
 Wire Wire Line
 	3650 2600 3650 2750
 Wire Wire Line
 	3650 1700 3650 2000
 Wire Wire Line
-	4700 4250 5000 4250
-Wire Wire Line
-	5000 4250 5000 3450
-Wire Wire Line
 	5800 2150 5800 2000
 Wire Wire Line
-	5000 3450 5100 3450
+	5100 3450 5000 3450
 Wire Wire Line
 	6000 3650 6000 3800
+Wire Wire Line
+	2900 3350 2800 3350
+Wire Wire Line
+	2800 3350 2800 4000
+Wire Wire Line
+	3400 3550 2800 3550
+Connection ~ 2800 3550
+Wire Wire Line
+	3950 3550 3950 4250
+Wire Wire Line
+	3950 4250 4200 4250
+Connection ~ 3950 3550
 $Comp
-L R R2
+L R R1
+U 1 1 50F04F06
+P 3650 3550
+F 0 "R1" V 3730 3550 50  0000 C CNN
+F 1 "R" V 3650 3550 50  0000 C CNN
+	1    3650 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
 U 1 1 50EF27C3
 P 5350 3450
-F 0 "R2" V 5430 3450 50  0000 C CNN
+F 0 "R3" V 5430 3450 50  0000 C CNN
 F 1 "R" V 5350 3450 50  0000 C CNN
 	1    5350 3450
 	0    -1   -1   0   
 $EndComp
 $Comp
-L RVAR R1
+L RVAR R2
 U 1 1 50EF2592
 P 4450 4250
-F 0 "R1" V 4530 4200 50  0000 C CNN
+F 0 "R2" V 4530 4200 50  0000 C CNN
 F 1 "RVAR" V 4370 4310 50  0000 C CNN
 	1    4450 4250
 	0    -1   -1   0   
@@ -181,10 +192,10 @@ $EndComp
 $Comp
 L GND #PWR1
 U 1 1 50EF18E3
-P 3150 4000
-F 0 "#PWR1" H 3150 4000 30  0001 C CNN
-F 1 "GND" H 3150 3930 30  0001 C CNN
-	1    3150 4000
+P 2800 4000
+F 0 "#PWR1" H 2800 4000 30  0001 C CNN
+F 1 "GND" H 2800 3930 30  0001 C CNN
+	1    2800 4000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -217,10 +228,10 @@ $EndComp
 $Comp
 L LED D1
 U 1 1 50EF16B7
-P 3450 3550
-F 0 "D1" H 3450 3650 50  0000 C CNN
-F 1 "LED" H 3450 3450 50  0000 C CNN
-	1    3450 3550
+P 3100 3350
+F 0 "D1" H 3100 3450 50  0000 C CNN
+F 1 "LED" H 3100 3250 50  0000 C CNN
+	1    3100 3350
 	1    0    0    -1  
 $EndComp
 $Comp
