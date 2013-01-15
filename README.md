@@ -13,6 +13,4 @@ http://www.ti.com/lit/an/slod006b/slod006b.pdf
 
 digikey
 --------
-http://www.digikey.com/scripts/DKSearch/dksus.dll?Detail&itemSeq=124799175&uq=634938360681078262
-http://www.digikey.com/scripts/DKSearch/dksus.dll?Detail&itemSeq=124799207&uq=634938360681078262
-http://www.digikey.com/scripts/DKSearch/dksus.dll?Detail&itemSeq=124799487&uq=634938360681078262
+http://ordering.digikey.com/Ordering/ResumeOrder.aspx?web_id=44487635&access_id=75402
