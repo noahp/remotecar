@@ -11,6 +11,8 @@ op amp ref
 ---------
 http://www.ti.com/lit/an/slod006b/slod006b.pdf
 
-mouser cart
+digikey
 --------
-http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=1f36230ae9
+http://www.digikey.com/scripts/DKSearch/dksus.dll?Detail&itemSeq=124799175&uq=634938360681078262
+http://www.digikey.com/scripts/DKSearch/dksus.dll?Detail&itemSeq=124799207&uq=634938360681078262
+http://www.digikey.com/scripts/DKSearch/dksus.dll?Detail&itemSeq=124799487&uq=634938360681078262
