@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 3/21/2013 7:34:18 PM
+EESchema Schematic File Version 2  date 3/21/2013 7:42:46 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:remotecar-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
@@ -199,7 +200,7 @@ F 3 "" H 4150 3250 60  0001 C CNN
 $EndComp
 $Comp
 L NPN Q?
-U 1 1 514B9905
+U 1 1 514B9DBD
 P 5900 3450
 F 0 "Q?" H 5900 3300 50  0000 R CNN
 F 1 "NPN" H 5900 3600 50  0000 R CNN
